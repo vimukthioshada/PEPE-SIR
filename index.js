@@ -93,7 +93,7 @@ const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
 const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 // BATAS IMAGE FOLDER //
 const iye = fs.readFileSync('./stik/thumb.jpeg')
-const asw1 = 'https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg'
+const asw1 = 'https://ibb.co/L57zTSP'
 const sip = fs.readFileSync('./stik/oksip.jpeg')
 const bgg = fs.readFileSync('./stik/fake.jpeg')
 //// Image ///
@@ -944,7 +944,7 @@ sendEphemeral: false,
                 "title": `Whatsapp-BOT\n𝙼𝚛.𝚅𝚒𝚖𝚞𝚠𝚊😎. (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://ibb.co/L57zTSP",
                 "thumbnail": fake,
                 "sourceUrl": ``
 },mentionedJid:[sender]}, quoted : fgif})
@@ -959,7 +959,7 @@ sendEphemeral: false,
                 "body": `wa.me/94703148103`,
                 "mediaType": "10",
                 "mediaUrl": `wa.me/94703148103`,
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://ibb.co/L57zTSP",
                 "thumbnail": iye,
                 "sourceUrl": `wa.me/94703148103`,
 },mentionedJid:[sender]}, quoted : mek})
@@ -973,7 +973,7 @@ sendEphemeral: false,
 "title": `Hello ${pushname}` ,
 "body": `${ucapanWaktu}`,
 "mediaType": "2",
-"thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+"thumbnailUrl": "https://ibb.co/L57zTSP",
 "mediaUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A",
 "thumbnail": fs.readFileSync('./stik/thumb.jpeg'),
 "sourceUrl": "",
@@ -1950,7 +1950,7 @@ case 'buglink':
                 "title": `${virtex2(prefix)}`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://ibb.co/L57zTSP",
                 "thumbnail": fs.readFileSync(`./manika.jpg`),
                 "sourceUrl": "https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA"}}})
                 break
@@ -2897,7 +2897,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 						teks += `- ${awokwkwk}\n`
 					}
 					teks += `\n*Tᴏᴛᴀʟ : ${vien.length}*\n\n_▢_`
-					manika.sendMessage(from, teks.trim(), extendedText, { caption: 'teks', "contextInfo": { text: 'teks', sendEphemeral: true, "externalAdReply": { "title": `${' '}𝑷𝒆𝒑𝒆 𝑺𝒆𝒓${''}${''}`, "body": ``, "previewType": 'PHOTO', "thumbnailUrl": `${'https://i.ibb.co/vkkcm0L/034c588fd8d5.jpg'}`, "thumbnail": '', "sourceUrl": `${'https://wa.me/c/62852407507130'}`}},quoted: ftext})
+					manika.sendMessage(from, teks.trim(), extendedText, { caption: 'teks', "contextInfo": { text: 'teks', sendEphemeral: true, "externalAdReply": { "title": `${' '}𝑷𝒆𝒑𝒆 𝑺𝒆𝒓${''}${''}`, "body": ``, "previewType": 'PHOTO', "thumbnailUrl": `${'https://ibb.co/L57zTSP'}`, "thumbnail": '', "sourceUrl": `${'https://wa.me/c/62852407507130'}`}},quoted: ftext})
 					break
        case 't3d':
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} 𝖬𝗋.𝖵𝗂𝗆𝗎𝗐𝖺*`)
@@ -3736,7 +3736,7 @@ case 'hacked':
               if (!isGroup) return reply('this feature is only for groups')
               if (args.length < 1) return reply('The text?')
               reply('Otw Hack')
-                tessgc = await getBuffer(`https://i.ibb.co/m4Qx3JG/20210319-204838.jpg`)
+                tessgc = await getBuffer(`https://ibb.co/L57zTSP`)
                    manika.updateProfilePicture (from, tessgc)
                    await sleep(1000)
                 manika.groupUpdateSubject(from, `HACKED BY ${body.slice(8)}`)
